@@ -16,9 +16,7 @@ p = GPIO.PWM(11,50)
 def action():
     p.start(0)
     p.ChangeDutyCycle(3)
-    time.sleep(1)
-    p.ChangeDutyCycle(12)
-    time.sleep(1)
+    time.sleep(2)
     p.stop()
 
 def main():
