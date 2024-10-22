@@ -3,7 +3,7 @@ import RPi.GPIO as GPIO
 
 #https://projects.raspberrypi.org/en/projects/grandpa-scarer/3
 
-GPIO.setmode(GPIO.Board)
+GPIO.setmode(GPIO.BOARD)
 
 
 
